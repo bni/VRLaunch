@@ -1,6 +1,6 @@
 F1::
   ; DCS World
-  Run, C:\Program Files\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe, C:\Program Files\Eagle Dynamics\DCS World OpenBeta
+  Run, C:\Program Files\Eagle Dynamics\DCS World OpenBeta\bin\DCS.exe --force_enable_VR, C:\Program Files\Eagle Dynamics\DCS World OpenBeta
   Return
 
 F2::
