@@ -1,7 +1,7 @@
 Purpose
 ---
 
-As an Oculus user; if you have a Sim-pit or are in some other situation when using touch controllers is inconvenient or redundant, this might be useful for you.
+As an Oculus Rift user; if you have a Sim-pit or are in some other situation when using touch controllers is inconvenient or redundant, this might be useful for you.
 
 Generally, to start games from inside Oculus Home/Dash you need to use the touch controllers, or peek through the nosehole and try to use the mouse. This resolves that.
 
@@ -25,6 +25,7 @@ Use Windows Game Controllers panel (joy.cpl) to determine the button such as Joy
 
 Examples
 ---
+
 The 3 games configured demonstrate 3 different ways to start in Oculus native mode. This is currently the Wild West and the method is different for each game. I have used ProcessExplorer and googling to find a way that works for the games I play.
 
 DCS World: Doesnt use Steam at all, so very straightforward, just launhch the exe.
@@ -32,3 +33,8 @@ DCS World: Doesnt use Steam at all, so very straightforward, just launhch the ex
 KartKraft: Launch Steam in silent mode and tell it to launch KartKraft appid using the "othervr" option. This means Oculus native. "othervr" might work for other Steam games that can be launched from Oculus Home, with the "Unkonwn sources" feature.
 
 Assetto Corsa Competizione: Launch Steam in silent mode and tell it to launch ACC appid. ACC requires a command line switch to be added inside Steam lauch options for the title. Sending this as a command line param here is not possible.
+
+Optional
+---
+
+Use [OculusHomeless](https://www.reddit.com/r/oculus/comments/8uf1sm/oculushomeless_use_dash_without_home_20/) to skip Oculus Home from loading and see the dash only.
